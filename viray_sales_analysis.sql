@@ -93,7 +93,7 @@ SELECT
     , Year
     , Month
 ;
-    
+
 -- 5.) Can you provide a ranking of in-store sales performance by each store in the sales territory, or a ranking of online sales performance by state within an online sales territory?
 
 	-- Find sum of each store and order from highest to lowest
@@ -107,3 +107,4 @@ SELECT
     ORDER BY Sales DESC
 ;
 -- 6.) What is your recommendation for where to focus sales attention in the next quarter?
+	-- After looking at the data, I recommend focusing sales on having a strong fall season, especially in October. In 2025, October jumped to have the highest sales well above any other month. Another thing to note is that it seems the number of transactions with textbooks is not keeping up with the growth of other products, so the store can have less stock of textbooks, and a have a higher focus selling other products when it comes to the new year.
