@@ -101,8 +101,7 @@ SELECT
 	SUM(sale_amount) AS Sales
     , Store_ID
 	FROM store_sales
-	WHERE (Store_ID BETWEEN 730 AND 739) 			-- IDs of all stores in region
-	   OR (Store_ID BETWEEN 801 AND 839)
+	WHERE Store_ID BETWEEN 824 AND 839
 	GROUP BY Store_ID
     ORDER BY Sales DESC
 ;
